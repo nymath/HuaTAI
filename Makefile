@@ -14,3 +14,5 @@ publish_package:
 git_log:
 	@git log --all --graph --decorate --oneline
 	
+ls:
+	@ls $(0)
